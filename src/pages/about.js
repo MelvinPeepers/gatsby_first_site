@@ -12,6 +12,7 @@ const AboutPage = () => {
 export const Head = () => (
 
 <>
+    <html lang="en" />
     <title>About Me</title> 
     <meta name="description" content="My About Page" />
 </>

@@ -17,6 +17,7 @@ const IndexPage = () => {
 export const Head = () => (
 
   <>
+    <html lang="en" />
     <title>Home Page</title> 
     <meta name="description" content="My Home Page" />
   </>
