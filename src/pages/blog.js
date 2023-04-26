@@ -19,7 +19,7 @@ const BlogPage = ({ data }) => {
     )
 }
 
-export const query = graphql`
+export const Blogquery = graphql`
     query {
         allFile {
         nodes {
