@@ -1,10 +1,12 @@
 import * as React from "react"
+import Layout from '../components/layout'
+import Seo from '../components/seo'
 
 const SSRPage = ({ serverData }) => (
-    <main>
+    <Layout>
         <h1>SSR Page with Dogs</h1>
         <img alt="Happy dog" src={serverData.message} />
-    </main>
+    </Layout>
 )
 
 export default SSRPage
@@ -28,3 +30,9 @@ export async function getServerData() {
         }
     }
 }
+
+<>
+    <html lang="en" />
+    <Seo title="SSR" /> 
+    <meta name="description" content="My SSR Page" />
+</>
