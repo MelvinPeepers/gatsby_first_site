@@ -3,8 +3,7 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 
 const SSRPage = ({ serverData }) => (
-    <Layout>
-        <h1>SSR Page with Dogs</h1>
+    <Layout pageTitle="SSR Page with Dogs">
         <img alt="Happy dog" src={serverData.message} />
     </Layout>
 )
