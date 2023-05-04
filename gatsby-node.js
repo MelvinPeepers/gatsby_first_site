@@ -3,6 +3,6 @@ exports.createPages = async ({ graphql, actions }) => {
   
     createRedirect({
       fromPath: `/blog/my-sixth-post/`,
-      toPath: `/my-fifth-post`,
+      toPath: `/blog/my-fifth-post`,
     })
   }
