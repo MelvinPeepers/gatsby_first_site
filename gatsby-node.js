@@ -2,7 +2,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const { createRedirect } = actions
   
     createRedirect({
-      fromPath: `/blog/my-second-post`,
-      toPath: `/about`,
+      fromPath: `www.mel.quest/blog/my-second-post/`,
+      toPath: `www.mel.quest/about`,
     })
   }
