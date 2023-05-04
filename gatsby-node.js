@@ -12,6 +12,7 @@ exports.createPages = async ({ graphql, actions }) => {
       fromPath: `/blog/*`,
       toPath: `/blog`
     })
+        // the above wildcard redirect rule redirects back to the blog page if the page doesn't exist 
   }
 
   
