@@ -6,3 +6,5 @@ exports.createPages = async ({ graphql, actions }) => {
       toPath: `/blog/my-fifth-post`,
     })
   }
+
+  // the above redirects from /blog/my-sixth-post (which doesn't exist) to /blog/my-fifth-post which does exist 
