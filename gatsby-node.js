@@ -10,7 +10,7 @@ exports.createPages = async ({ graphql, actions }) => {
     // Wildcard path redirects
     createRedirect({
       fromPath: `/blog/*`,
-      toPath: `/about`
+      toPath: `/blog`
     })
   }
 
