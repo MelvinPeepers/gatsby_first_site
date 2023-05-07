@@ -2,6 +2,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
     title: "My First Gatsby Site",
   },
