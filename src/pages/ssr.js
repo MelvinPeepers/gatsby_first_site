@@ -23,7 +23,6 @@ export async function getServerData() {
         }
 
         const json = await res.json();
-
         console.log("Memory after fetch", process.memoryUsage());
         console.timeEnd("getServerData total");
 
