@@ -27,7 +27,7 @@ export async function getServerData() {
         console.timeEnd("getServerData total");
 
         return {
-            props: await res.json(),
+            props: json,
         }
     } catch (error) {
         console.error("Error in getServerData:", error);
