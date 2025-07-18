@@ -9,7 +9,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "echo 'ENV VARS SNAPSHOT:' && env | cut -d= -f1 | sort && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
